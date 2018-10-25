@@ -110,14 +110,14 @@ func optionsWithDefaults(opts Options) Options {
 
 		if len(opts.LogLevel) > 0 {
 			oncer.Deprecate(0, "github.com/gobuffalo/buffalo#Options.LogLevel", "Use github.com/gobuffalo/buffalo#Options.LogLvl instead.")
-			opts.Logger = logger.NewLogger(opts.LogLevel)
+			opts.Logger = NewLogger(opts.LogLevel)
 		} else {
 			if opts.LogLvl == 0 {
 				opts.LogLvl = logger.DebugLevel
 			}
 		}
 
-		opts.Logger = logger.New(opts.LogLvl)
+		opts.Logger = lWrap{logger.New(opts.LogLvl)}
 	}
 
 	pop.Log = func(s string, args ...interface{}) {
