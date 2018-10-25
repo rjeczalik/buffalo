@@ -7,10 +7,9 @@ require (
 	github.com/fatih/color v1.7.0
 	github.com/gobuffalo/buffalo-docker v1.0.4
 	github.com/gobuffalo/buffalo-plugins v1.6.4
-	github.com/gobuffalo/buffalo-pop v1.1.3
+	github.com/gobuffalo/buffalo-pop v1.1.4
 	github.com/gobuffalo/envy v1.6.5
 	github.com/gobuffalo/events v1.1.3
-	github.com/gobuffalo/fizz v1.0.14 // indirect
 	github.com/gobuffalo/flect v0.0.0-20181024204909-8f6be1a8c6c2
 	github.com/gobuffalo/genny v0.0.0-20181024195656-51392254bf53
 	github.com/gobuffalo/github_flavored_markdown v1.0.5
@@ -29,7 +28,7 @@ require (
 	github.com/gobuffalo/plush v3.7.21+incompatible
 	github.com/gobuffalo/pop v4.8.5+incompatible
 	github.com/gobuffalo/tags v2.0.11+incompatible
-	github.com/gobuffalo/x v0.0.0-20181007152206-913e47c59ca7
+	github.com/gobuffalo/x v0.0.0-20181025144725-c5ab981b47cc
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/mux v1.6.2
 	github.com/gorilla/sessions v1.1.3
