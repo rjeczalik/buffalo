@@ -29,7 +29,7 @@ require (
 	github.com/gobuffalo/plush v3.7.21+incompatible
 	github.com/gobuffalo/pop v4.8.5+incompatible
 	github.com/gobuffalo/tags v2.0.11+incompatible
-	github.com/gobuffalo/x v0.0.0-20181025151342-225f2db6b096
+	github.com/gobuffalo/x v0.0.0-20181025165825-f204f550da9d
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/mux v1.6.2
 	github.com/gorilla/sessions v1.1.3
