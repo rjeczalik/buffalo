@@ -89,6 +89,8 @@ github.com/gobuffalo/mapi v1.0.1/go.mod h1:4VAGh89y6rVOvm5A8fKFxYG+wIW6LO1FMTG9h
 github.com/gobuffalo/meta v0.0.0-20181018155829-df62557efcd3/go.mod h1:XTTOhwMNryif3x9LkTTBO/Llrveezd71u3quLd0u7CM=
 github.com/gobuffalo/meta v0.0.0-20181018192820-8c6cef77dab3 h1:RPWDSAeQeNddUkOM1qM2PkyBYaaX1GAJZX/7zx+18mU=
 github.com/gobuffalo/meta v0.0.0-20181018192820-8c6cef77dab3/go.mod h1:E94EPzx9NERGCY69UWlcj6Hipf2uK/vnfrF4QD0plVE=
+github.com/gobuffalo/meta v0.0.0-20181025145500-3a985a084b0a h1:kROH1vRfBoxH1QIQjINB4qi4TmQTdg2Z/yzrKq1f2qM=
+github.com/gobuffalo/meta v0.0.0-20181025145500-3a985a084b0a/go.mod h1:YDAKBud2FP7NZdruCSlmTmDOZbVSa6bpK7LJ/A/nlKg=
 github.com/gobuffalo/mw-basicauth v1.0.3 h1:bCqDBHnByenQitOtFdEtMvlWVgPwODrfZ+nVkgGoJZ8=
 github.com/gobuffalo/mw-basicauth v1.0.3/go.mod h1:dg7+ilMZOKnQFHDefUzUHufNyTswVUviCBgF244C1+0=
 github.com/gobuffalo/mw-contenttype v0.0.0-20180802152300-74f5a47f4d56 h1:SUFp8EbFjlKXkvqstoxPWx3nVPV3BSKZTswQNTZFaik=
