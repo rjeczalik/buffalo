@@ -18,7 +18,7 @@ require (
 	github.com/gobuffalo/logger v0.0.0-20181022175615-46cfb361fc27
 	github.com/gobuffalo/makr v1.1.5
 	github.com/gobuffalo/meta v0.0.0-20181025145500-3a985a084b0a
-	github.com/gobuffalo/mw-basicauth v1.0.5
+	github.com/gobuffalo/mw-basicauth v1.0.6
 	github.com/gobuffalo/mw-contenttype v0.0.0-20180802152300-74f5a47f4d56
 	github.com/gobuffalo/mw-csrf v0.0.0-20180802151833-446ff26e108b
 	github.com/gobuffalo/mw-forcessl v0.0.0-20180802152810-73921ae7a130
