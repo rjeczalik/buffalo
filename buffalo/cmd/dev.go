@@ -62,7 +62,7 @@ This behavior can be changed in your .buffalo.dev.yml file.`,
 		wg, ctx := errgroup.WithContext(ctx)
 
 		wg.Go(func() error {
-			return startDevServer(ctx)
+			return startDevServer(ctx, args)
 		})
 
 		wg.Go(func() error {
@@ -106,7 +106,7 @@ func startWebpack(ctx context.Context) error {
 	return cmd.Run()
 }
 
-func startDevServer(ctx context.Context) error {
+func startDevServer(ctx context.Context, args []string) error {
 	cfgFile := "./.buffalo.dev.yml"
 	if _, err := os.Stat(cfgFile); err != nil {
 		err = rg.Run("./", map[string]interface{}{
@@ -128,6 +128,7 @@ func startDevServer(ctx context.Context) error {
 		c.BuildFlags = append(c.BuildFlags, "-tags", bt.String())
 	}
 	r := refresh.NewWithContext(c, ctx)
+	r.CommandFlags = args
 	return r.Start()
 }
 
